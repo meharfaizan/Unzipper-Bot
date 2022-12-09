@@ -1,12 +1,6 @@
-#!/usr/bin/bash
-
-VERSION="v1.0"
-echo "
-    ||| Unzipper Bot - $VERSION |||
-
-Copyright (c) 2022 Itz-fork
-
---> Join @NexaBotsUpdates
---> Follow Itz-fork on Github
-"
-python3 -m unzipper
+echo "Cloning Repo...."
+git clone https://github.com/meharfaizan/Unzipper-Bot
+cd /Unzipper-Bot
+pip3 install -r requirements.txt
+echo "Starting Bot...."
+python3 bot.py
