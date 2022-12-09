@@ -3,4 +3,4 @@ git clone https://github.com/meharfaizan/Unzipper-Bot
 cd /Unzipper-Bot
 pip3 install -r requirements.txt
 echo "Starting Bot...."
-python3 bot.py
+python3 start.sh
