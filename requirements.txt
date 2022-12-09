@@ -9,3 +9,6 @@ aiohttp
 aiofiles
 Pillow
 gofile2
+Flask
+pymongo
+gunicorn
