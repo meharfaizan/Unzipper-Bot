@@ -1,6 +1,9 @@
-echo "Cloning Repo...."
-git clone https://github.com/meharfaizan/Unzipper-Bot
-cd /unzipper
-pip3 install -r requirements.txt
-echo "Starting Bot...."
-bash start.sh
+echo "
+||| Unzipper Bot |||
+
+Copyright (c) 2021 Itz-fork
+
+--> Join @NexaBotsUpdates
+--> Follow Itz-fork on Github
+"
+python3 -m unzipper
